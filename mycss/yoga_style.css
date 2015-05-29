@@ -1,0 +1,16 @@
+body {
+	font-size: 24px;
+	font-family: "Avenir";
+	background-color: #FFFF00;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+
+
+#slogan {
+	font-style: italic;
+}
