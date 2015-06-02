@@ -1,10 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Flamenco);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 body {
 	font-size: 24px;
-	font-family: "Avenir";
+	font-family: Roboto+Slab;
 	color: #808080;
 }
 
 h1 {
+	font-family: Flamenco;
 	font-size: 48px;
 	font-weight: bold;
 	color: black
