@@ -1,18 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Flamenco);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 body {
 	font-size: 24px;
-	font-family: Roboto+Slab;
+	font-family: 'Roboto', sans-serif;
 	color: #808080;
 }
 
 h1 {
-	font-family: Flamenco;
-	font-size: 48px;
+	font-family: 'Flamenco', cursive;
+	font-size: 2em;
 	font-weight: bold;
 	color: black
 }
-
+ul {
+	margin-left:1.25em;
+}
 
 
 #slogan {
