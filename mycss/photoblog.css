@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic);
+
+
+body {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 3em;
+}
+
+h1,h2 {
+	font-family: 'Old Standard TT', serif, gray;
+	font-style: italic;
+	font-size: 2em;
+	padding: .25em 0;
+	border-bottom: 2px solid gray;
+	font-weight: 800;
+}
+
+nav {
+	font-size: 1.5em;
+	display: inline-block;
+	float: right;
+}
+
+#about {
+	display: block;
+	float:left;
+}
+
+#photos {
+	display: inline-block;
+	float: right;
+	width: 450px;
+}
+
+footer{
+	clear: both;
+}
