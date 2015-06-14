@@ -5,34 +5,47 @@ body {
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 	margin: 3em;
+	overflow: clear;
 }
 
-h1,h2 {
+h1 {
 	font-family: 'Old Standard TT', serif, gray;
 	font-style: italic;
 	font-size: 2em;
-	padding: .25em 0;
-	border-bottom: 2px solid gray;
+	padding: .5em;
+	margin-bottom: 1%;
+	background-color: gray;
+	color: white;
 	font-weight: 800;
 }
 
+#menu {
+	color: inherit;
+	text-decoration: none;
+	font-style: normal;
+	padding: .5em;
+}
+
 nav {
-	font-size: 1.5em;
-	display: inline-block;
 	float: right;
-}
-
-#about {
 	display: block;
-	float:left;
 }
 
-#photos {
+a:hover {
+	background-color: #2F2B75;
+}
+
+img {
 	display: inline-block;
-	float: right;
-	width: 450px;
+	float: center;
+	width: 27.75%;
+	padding: 1%;
+	border: 3px ridge gray;
+	margin: 1.33%;
+	background-color: #2F2B75;
 }
 
 footer{
 	clear: both;
+	float: right;
 }
